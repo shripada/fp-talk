@@ -71,22 +71,22 @@ const questions = [
     answer: 2,
   },
   {
-    question: 'Which of the following is true about pure functions?',
+    question: 'Point free functions are created using',
     options: [
-      'They can modify their input arguments',
-      'They always produce the same output for the same input',
-      'They rely on external state',
-      'They perform I/O operations',
+      'map function',
+      'map, filter and then reduce',
+      'currying and partial application',
+      'reduce function',
     ],
     answer: 1,
   },
   {
-    question: 'What is the main benefit of immutability?',
+    question: 'Currying is a process',
     options: [
-      'It makes code harder to test',
-      'It prevents accidental changes to data',
-      'It increases side effects',
-      'It makes debugging more difficult',
+      'of converting a given function into a nested sequence of functions where each function takes next argument and the final one takes last argument and implements the logic',
+      'of creating a composition of function calls that will call the original function',
+      'of partially applying a nested sequence of functions until we get the result',
+      'none of the above',
     ],
     answer: 1,
   },
@@ -240,7 +240,7 @@ export default function QuizApp() {
         )}
       </div>
       <footer className="mt-8 text-gray-400 text-sm">
-        &copy; {new Date().getFullYear()} Functional Programming Quiz
+        &copy; {new Date().getFullYear()} CodeCraft Technologies, Pvt Ltd
       </footer>
     </div>
   );
