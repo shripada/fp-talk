@@ -35,8 +35,8 @@ const questions = [
   },
   {
     question:
-      'Which function is commonly used to apply a function to every item in a list?',
-    options: ['filter', 'map', 'reduce', 'sort'],
+      'Which function is commonly used to transform each item in a list into a new list?',
+    options: ['filter', 'map', 'reduce', 'forEach'],
     answer: 1,
   },
   {
@@ -78,7 +78,7 @@ const questions = [
       'currying and partial application',
       'reduce function',
     ],
-    answer: 1,
+    answer: 2,
   },
   {
     question: 'Currying is a process',
@@ -88,7 +88,7 @@ const questions = [
       'of partially applying a nested sequence of functions until we get the result',
       'none of the above',
     ],
-    answer: 1,
+    answer: 0,
   },
   {
     question:
